@@ -1,8 +1,10 @@
+# A1 PERFORMANCEFACTORY
+
 # Team: A1 PERFORMANCEFACTORY
 
-| 팀명 | A1 PERFORMANCEFACTORY                          |
-| ---- | ---------------------------------------------- |
-| 팀원 | 손봉균, 손해창, 김정현, 임하은, 이희민, 김재승 |
+| 팀명 | A1 PERFORMANCEFACTORY                                      |
+| ---- | ---------------------------------------------------------- |
+| 팀원 | 손봉균, 손해창, 김정현, ~~임하은~~, ~~이희민~~, ~~김재승~~ |
 
 ---
 
@@ -28,23 +30,23 @@
 
 ### ***bidding_result.csv***
 
-| data columns   | 데이터 설명                                                    | 비고    |
-| -------------- | -------------------------------------------------------------- | ------- |
-| Index          | 광고 고유 이름( All 숫자)                                      | int64   |
-| Impression     | 노출수 ***** 라벨링 값(feat. 성민규강사님)                     | int64   |
-| Click          | 클릭수 ***** 라벨링 값(feat. 성민규강사님)                     | int64   |
-| Cost           | 광고 집행 비용; bid * 클릭수(세금제외)                         | float64 |
-| Sum of AD rank | 전일 광고 평균 순위                                            | float64 |
-| Bid            | 입찰 ***입찰가격도 중요시보자. (feat. 성민규강사님); 광고 단가 | int64   |
-| Price(PC)      | PC 가격 *** ; 판매중인 물건 가격                               | int64   |
-| Price(Mobile)  | 모바일 가격 ***; 판매중인 물건 가격                            | int64   |
-| Delivery Fee   | 배송비(부정확함) (-1: 광고가져오지 못한것 즉 결측값)           | int64   |
-| Category1      | 범주1                                                          | object  |
-| Category2      | 범주2                                                          | object  |
-| Category3      | 범주3                                                          | object  |
-| Category4      | 범주4                                                          | object  |
-| date           | 날짜                                                           | int64   |
-|                |                                                                |         |
+| data columns   | 데이터 설명                                | 비고    |
+| -------------- | ------------------------------------------ | ------- |
+| Index          | 광고 고유 이름( All 숫자)                  | int64   |
+| Impression     | 노출수 ***** 라벨링 값                     | int64   |
+| Click          | 클릭수 ***** 라벨링 값                     | int64   |
+| Cost           | 광고 집행 비용; bid * 클릭수(세금제외)     | float64 |
+| Sum of AD rank | 전일 광고 평균 순위                        | float64 |
+| Bid            | 입찰, 광고 단가                            | int64   |
+| Price(PC)      | PC 가격 *** ; 판매중인 물건 가격           | int64   |
+| Price(Mobile)  | 모바일 가격 ***; 판매중인 물건 가격        | int64   |
+| Delivery Fee   | 배송비 (-1: 광고가져오지 못한것 즉 결측값) | int64   |
+| Category1      | 범주1                                      | object  |
+| Category2      | 범주2                                      | object  |
+| Category3      | 범주3                                      | object  |
+| Category4      | 범주4                                      | object  |
+| date           | 날짜                                       | int64   |
+|                |                                            |         |
 
 ### **log_csv.csv**
 
