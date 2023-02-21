@@ -103,8 +103,8 @@ non-basket 로그데이터
 
 ### 2. 시간대별 OS비중
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/60035833-b7bf-4363-b46f-12702a4e503d/Untitled.png)
 
+![통합데이터 시간대별 로그](https://user-images.githubusercontent.com/114561525/220329225-943829eb-9a9b-4a42-a14a-f447089f41ff.png)
 전체 시간 os 비중
 
 ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/19ced73f-0a01-4e9b-9f6a-0e9f681653f0/Untitled.png)
