@@ -59,6 +59,8 @@
 3. Highlight : 드래그 이벤트 발생 
 4. Copy:  복사 이벤트 발생
 5. SINF : 광고 유입을 통한 입장 | object |
+
+
 | category1 | 범주1 | object |
 | category2 | 범주2 | object |
 | category3 | 범주3 | object |
@@ -271,7 +273,7 @@ p-value : 0.0
 
 ### Prophet model을 이용한 분석
 
-![Uploading 클릭프로펫.png…]()
+![클릭프로펫](https://user-images.githubusercontent.com/114561525/220330752-c4d6b335-db6b-4995-b14c-9efe899c2c3a.png)
 
 클릭
 
