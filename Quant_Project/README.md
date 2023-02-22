@@ -27,13 +27,13 @@
 
 ### 프로젝트 프레임워크
 
-![Framework.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2b0f9f88-18dc-44cd-98a5-d0e960e73184/Framework.png)
+<img width="1194" alt="Framework" src="https://user-images.githubusercontent.com/114561525/220541414-90793fd0-6372-471b-824b-4c150247cb0a.png">
 
 ---
 
 ### 파일스트럭처
 
-![File_Structure.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2fcc7b2f-65c1-4b71-b2d4-4ff6f8144043/File_Structure.png)
+<img width="1023" alt="File_Structure" src="https://user-images.githubusercontent.com/114561525/220541425-4a4a0763-9ed7-42d3-819c-8e901d549bc1.png">
 
 ---
 
@@ -68,7 +68,7 @@
 
 ### 시황분석: SP500 지수 분석
 
-![sp_with_rg.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/98017b5b-c9a2-41e8-b6df-829feec13e59/sp_with_rg.png)
+<img width="403" alt="시황분석" src="https://user-images.githubusercontent.com/114561525/220541444-2e91a3cf-d423-4924-916b-f6d49648e27c.png">
 
 - 시황 적용의 필요성 인지
 - recovery인 경우 가장 성과지표가 좋았다.
@@ -88,9 +88,8 @@
 
 ### 멀티에셋: Deflation 분석
 
-![assets_defla.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/62dee6bc-59a9-4e77-872a-9149ea36a3f4/assets_defla.png)
+<img width="374" alt="멀티에셋" src="https://user-images.githubusercontent.com/114561525/220541475-4516b351-fd86-4d8b-811d-6f34253e4d21.png">
 
-![assets_defla_plot.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1884205f-4932-4e3d-a26c-e78ce8f09aeb/assets_defla_plot.png)
 
 ---
 
@@ -104,7 +103,7 @@
 
 ### 멀티에셋: Inflation 분석
 
-![assets_infla.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b5ff7011-3b4e-48ba-a9fb-a0701513ddb4/assets_infla.png)
+<img width="371" alt="assets_infla" src="https://user-images.githubusercontent.com/114561525/220541575-865229f9-7d66-474e-95aa-0a23b297c68b.png">
 
 ![assets_infla_plot.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e1d46ed2-678b-4286-af27-2cc55eb61c1d/assets_infla_plot.png)
 
@@ -119,9 +118,9 @@
 
 ### 멀티에셋: Recovery 분석
 
-![assets_recov.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c67c74ca-c2b0-4957-b1bd-52c61aa11f01/assets_recov.png)
+<img width="373" alt="assets_recov" src="https://user-images.githubusercontent.com/114561525/220541795-987d152c-9ace-4f8c-af25-a958f6f932f4.png">
 
-![assets_recov_plot.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/0416c210-55f1-4652-9162-bbe4483f5332/assets_recov_plot.png)
+![assets_recov_plot_1](https://user-images.githubusercontent.com/114561525/220541905-c35ba7d4-90ed-43f5-b59a-89c8938eb11a.png)
 
 ---
 
@@ -136,9 +135,9 @@
 
 ### 멀티에셋: Expansion 분석
 
-![assets_expan.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2525a9b5-1e9d-4c3c-a072-fc22b51ab203/assets_expan.png)
+<img width="379" alt="assets_expan" src="https://user-images.githubusercontent.com/114561525/220541999-21c116cb-011a-49ba-99da-8e07bf0466b7.png">
 
-![assets_expan_plot.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c9c17bc1-5aa0-4767-b831-1c2270716ab7/assets_expan_plot.png)
+![assets_expan_plot](https://user-images.githubusercontent.com/114561525/220542018-e382d27d-9a9a-4b1b-a56d-9b1667b77044.png)
 
 ---
 
@@ -157,9 +156,9 @@
 
 ### 투자성과 비교
 
-![regime_port.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/76c5e979-b9cc-457a-b05d-c1eb74e47ca0/regime_port.png)
+<img width="119" alt="regime_port" src="https://user-images.githubusercontent.com/114561525/220542102-4963878e-f08e-417a-aab4-216db9b03881.png">
 
-![regime_port_plot.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3d9867e0-a0b1-462c-864b-a60e3ce939ad/regime_port_plot.png)
+<img width="619" alt="regime_port_plot" src="https://user-images.githubusercontent.com/114561525/220542117-09a4bca0-4601-4380-b460-93c1c4c5529a.png">
 
 - 시황별 성과가 좋은 대체자산에 투자한 경우 SP500 지수를 바이앤홀드한 경우의 샤프비율인 0.38 대비 1.31로 약 4배 가까이 높았다.
 - 다음 스탭: 시황별 어떤 자산군에 투자할지 대략적 감을 잡았다면, 개별 주식을 선택함으로써 SP500 지수를 이길 수 있는 방법론으로 팩터투자를 실시했다.
@@ -183,7 +182,7 @@
     - 저변동성: 낮은 변동성을 선택
     - AI forecasting: Prophet의 예측에 따라 자산을 선택
         
-        ![me.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c48ac964-cc3f-4944-aa33-b039346a29c6/me.png)
+        ![me](https://user-images.githubusercontent.com/114561525/220542194-a2b294a9-ef61-4e4d-9edb-f82079721848.png)
         
     
 - 팩터의 투자성과는 대시보드를 통해 설명
