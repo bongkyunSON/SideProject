@@ -105,7 +105,7 @@
 
 <img width="371" alt="assets_infla" src="https://user-images.githubusercontent.com/114561525/220541575-865229f9-7d66-474e-95aa-0a23b297c68b.png">
 
-![assets_infla_plot.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e1d46ed2-678b-4286-af27-2cc55eb61c1d/assets_infla_plot.png)
+![assets_infla_plot](https://user-images.githubusercontent.com/114561525/220542380-e7fa26ad-3b89-4289-832c-50c9849b5692.png)
 
 ---
 
