@@ -59,6 +59,8 @@
 3. Highlight : 드래그 이벤트 발생 
 4. Copy:  복사 이벤트 발생
 5. SINF : 광고 유입을 통한 입장 | object |
+
+
 | category1 | 범주1 | object |
 | category2 | 범주2 | object |
 | category3 | 범주3 | object |
@@ -83,15 +85,16 @@
 
 ### 1. **시간대별 log 분석**
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c62ec24f-ad0a-457d-886c-1defffa4918a/Untitled.png)
+![통합데이터 시간대별 로그](https://user-images.githubusercontent.com/114561525/220329463-a19db4ad-177f-4864-a4bd-60380628c8f3.png)
 
 전체로그데이터
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/96d278f0-d948-4a90-b4bc-fe96647fc780/Untitled.png)
+![바스켓 시간](https://user-images.githubusercontent.com/114561525/220329515-66f0f389-efe9-48ae-b2af-5bae7f8b7500.png)
+
 
 Basket 로그데이터
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d3be79af-14ca-4be8-8324-533814223c18/Untitled.png)
+![노바스켓시간](https://user-images.githubusercontent.com/114561525/220329549-72991aa1-68e9-4b2a-ac3a-2becd564256e.png)
 
 non-basket 로그데이터
 
@@ -103,15 +106,15 @@ non-basket 로그데이터
 
 ### 2. 시간대별 OS비중
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/60035833-b7bf-4363-b46f-12702a4e503d/Untitled.png)
 
+![os_1](https://user-images.githubusercontent.com/114561525/220329604-f5f40ec8-8275-4eb7-b8ee-74a8e5ca9a2c.png)
 전체 시간 os 비중
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/19ced73f-0a01-4e9b-9f6a-0e9f681653f0/Untitled.png)
+![os_2](https://user-images.githubusercontent.com/114561525/220329657-95630f2e-0468-46f5-a819-73882f36961e.png)
 
 근무시간대 os비중
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1fc18b14-1d55-4541-bca8-729027c40cd1/Untitled.png)
+![os_3](https://user-images.githubusercontent.com/114561525/220329672-e344b4a5-fe34-4852-b62b-9eb7c8935f62.png)
 
 자는시간대 os비중
 
@@ -123,15 +126,15 @@ non-basket 로그데이터
 
 ### 3. 시간대별 Basket data
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/07d67625-ff4a-4aab-a51a-5307e42295c0/Untitled.png)
+![basket_os1](https://user-images.githubusercontent.com/114561525/220329739-6f7f5c7f-f3bb-4b23-8785-1bbb23a89e07.png)
 
 전체시간
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/989e41d8-6230-42ea-b29c-009701c0a28f/Untitled.png)
+![basket_os2](https://user-images.githubusercontent.com/114561525/220329751-0ba06315-fcf4-4209-bd80-961c71b48e18.png)
 
 근무시간대
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c7f6dc92-9c4b-41cf-ae75-445c7e1b5446/Untitled.png)
+![basket_os3](https://user-images.githubusercontent.com/114561525/220329759-781a2175-5a29-45f3-ae4c-c1cf49007516.png)
 
 자는시간대
 
@@ -143,7 +146,7 @@ non-basket 로그데이터
 
 ### Uid Basket data 이탈율 중간값
 
-![바스켓데이터.PNG](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/763887b9-f613-4a02-b08e-c0eb093b52d3/%EB%B0%94%EC%8A%A4%EC%BC%93%EB%8D%B0%EC%9D%B4%ED%84%B0.png)
+![바스켓데이터](https://user-images.githubusercontent.com/114561525/220329839-b4ca2423-42d1-4991-b22e-d1cfe4d312a6.PNG)
 
 - 바스켓을 한 uid 별로 데이터를 본다
 - 데스크탑은 18초, 모바일은 14초 이탈율이 나온다
@@ -153,7 +156,7 @@ non-basket 로그데이터
 
 ### Uid non - Basket data 이탈율 중간값
 
-![non바스켓.PNG](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ad1eecdf-d7f5-4bfd-95a8-b3b213326ab0/non%EB%B0%94%EC%8A%A4%EC%BC%93.png)
+![non바스켓](https://user-images.githubusercontent.com/114561525/220329899-8c92727e-9a47-4c68-99b1-a6d7537823bb.PNG)
 
 - non바스켓을 한 uid 별로 데이터를 본다
 - 데스크탑은 17초, 모바일은 18초 이탈율이 나온다
@@ -165,7 +168,7 @@ non-basket 로그데이터
 
 ### 카테고리별 바스켓 비율
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/91d36557-dcfe-4eb3-88d1-6eb904705195/Untitled.png)
+![카테고리별 바스켓 비율](https://user-images.githubusercontent.com/114561525/220330051-e2f2f2c9-6f7c-4773-93f1-0a5b64dff262.PNG)
 
 - 특히 데코/식물, 가전/디지털 같은경우 모바일, 데스크탑의 비율차이가 많다
 - 데코/식물 카테고리는 모바일쪽에 불친절하지 않는지 체크할 필요가있다
@@ -175,7 +178,7 @@ non-basket 로그데이터
 
 ### Prophet으로 클릭데이터 보기(bidding data)
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b223e21a-8672-4c9a-801c-b35a1f7bfa15/Untitled.png)
+![클릭프로펫](https://user-images.githubusercontent.com/114561525/220330381-98b048ae-fcf0-4bd9-93a6-c61dc7d4a518.png)
 
 - 클릭 추세가 점점 줄어든다
 - 일, 월, 화에 클릭수가 높다
@@ -200,8 +203,6 @@ log_drop_null["useragent_os"] = np.where((log_drop_null['useragent_os'] == 'Andr
 # 모바일 (안드로이드, ios)은 1, 나머지는 0
 
 log_drop_null["viewrate"] = np.where((log_drop_null['viewrate'] != 0), "1","0" )
-
-# 뷰레이트는 혹시나해서?
 
 log_basket = log_drop_null[log_drop_null['useragent_os']=='0'][['viewrate']]
 log_non_basket = log_drop_null[log_drop_null['useragent_os']=='1'][['viewrate']]
@@ -235,7 +236,7 @@ p-value : 0.0
 
 ### 상품 가격대별 평균 순위
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/8293a479-89b0-487b-a6b4-55cf5863574b/Untitled.png)
+![상품가격대별 평균순위](https://user-images.githubusercontent.com/114561525/220330166-ae5ef5d7-96d7-48c3-8f11-f55a9f7ff139.PNG)
 
 - 가설 : 상품가격이 높으면 높을수록 코스트 민감도가 낮아질것이다
 - 가설을 데이터로 확인
@@ -245,23 +246,23 @@ p-value : 0.0
 
 ### 순위별 데이터 분석
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/9dd728a5-d5a0-4eaa-98fc-02d27a49510b/Untitled.png)
+![순위별광고](https://user-images.githubusercontent.com/114561525/220330205-3bf006ca-0ca3-4d11-9420-af42d75ca133.PNG)
 
 광고
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/021645bd-3ff5-4dce-b1c1-520f9331ca67/Untitled.png)
+![순위별클릭](https://user-images.githubusercontent.com/114561525/220330224-efee75a2-d90c-42ea-aee7-44ece5fca070.PNG)
 
 클릭
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3724422d-6346-444d-926f-2d610f812646/Untitled.png)
+![순위별코스트](https://user-images.githubusercontent.com/114561525/220330251-9a5d5b5b-943e-45df-8d29-091d37dbd6ed.PNG)
 
 코스트
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/320885a6-11d7-422a-b760-a8c96544db7d/Untitled.png)
+![순위별노출](https://user-images.githubusercontent.com/114561525/220330276-d0cb07e9-8d75-4ae5-9198-4613d8868542.PNG)
 
 노출
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/32ad72c0-14be-4806-bb99-5b4d946484e4/Untitled.png)
+![순위별상품가격](https://user-images.githubusercontent.com/114561525/220330304-fbd7ff20-f3f3-435d-8cbf-9c8f56cb77af.PNG)
 
 상품가격
 
@@ -272,15 +273,15 @@ p-value : 0.0
 
 ### Prophet model을 이용한 분석
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/64095a26-1e60-4f2d-93b8-39b9716fb92b/Untitled.png)
+![클릭프로펫](https://user-images.githubusercontent.com/114561525/220330752-c4d6b335-db6b-4995-b14c-9efe899c2c3a.png)
 
 클릭
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f7c3bb63-1c49-4999-aceb-ce573c07ed63/Untitled.png)
+![코스트프로펫](https://user-images.githubusercontent.com/114561525/220330366-a5fab13e-66ae-433d-ac72-08228d20696f.png)
 
 코스트
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/33075358-c93c-4eb9-a965-15ea042a42d1/Untitled.png)
+![노출프로펫](https://user-images.githubusercontent.com/114561525/220330340-9b26728a-ff54-41a1-8023-311a4a5935e8.png)
 
 노출
 
@@ -293,23 +294,23 @@ p-value : 0.0
 
 ### 카테고리 월별 분석
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ebdbcb4e-13c2-4ceb-a5b0-c6be212382a5/Untitled.png)
+![카테고리클릭](https://user-images.githubusercontent.com/114561525/220330419-3b196328-44e6-411e-b7f8-2ab706e253f2.PNG)
 
 클릭
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/343cc154-32a1-4739-960f-66e1e9a89e79/Untitled.png)
+![카테고리코스트](https://user-images.githubusercontent.com/114561525/220330438-9e4ef70d-8db3-4ab1-aad8-6e7d5da9ec05.PNG)
 
 코스트
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1b3bbcb3-356e-410e-bbd4-d22bb1741ddd/Untitled.png)
+![카테고리노출](https://user-images.githubusercontent.com/114561525/220330457-e2aa37cf-d932-49d0-a8ab-bae1a33975a3.PNG)
 
 노출
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/55f2eed0-0977-44c6-ba1f-fbeca5b96f10/Untitled.png)
+![카테고리순위](https://user-images.githubusercontent.com/114561525/220330484-edaa8472-0e29-4059-a404-2280859e5c5b.PNG)
 
 순위
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5afd96b3-be63-4120-8775-781ef2d0df7a/Untitled.png)
+![카테고리효율](https://user-images.githubusercontent.com/114561525/220330498-6daa512d-268c-4c49-8756-eba100f9e041.PNG)
 
 광고효율(클릭/코스트)
 
