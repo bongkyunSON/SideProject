@@ -8,59 +8,38 @@
 
 ---
 
-### 프로젝트 소개
-
-- 목적:
-    
-    log데이터와 bidding데이터를 분석하여 광고를 최적화 하기 위한 새로운 인사이트를 발견, 발전
-    
-
-- 진행 순서
-    1. 프로젝트 소개
-    2. log데이터
-    3. bidding 데이터
-    4. 질의응답
-    
-
----
-
 ## **프로젝트 소개**
 
 ### 1. Data 소개
 
 ### ***bidding_result.csv***
 
-| data columns   | 데이터 설명                                | 비고    |
-| -------------- | ------------------------------------------ | ------- |
-| Index          | 광고 고유 이름( All 숫자)                  | int64   |
-| Impression     | 노출수 ***** 라벨링 값                     | int64   |
-| Click          | 클릭수 ***** 라벨링 값                     | int64   |
-| Cost           | 광고 집행 비용; bid * 클릭수(세금제외)     | float64 |
-| Sum of AD rank | 전일 광고 평균 순위                        | float64 |
-| Bid            | 입찰, 광고 단가                            | int64   |
-| Price(PC)      | PC 가격 *** ; 판매중인 물건 가격           | int64   |
-| Price(Mobile)  | 모바일 가격 ***; 판매중인 물건 가격        | int64   |
-| Delivery Fee   | 배송비 (-1: 광고가져오지 못한것 즉 결측값) | int64   |
-| Category1      | 범주1                                      | object  |
-| Category2      | 범주2                                      | object  |
-| Category3      | 범주3                                      | object  |
-| Category4      | 범주4                                      | object  |
-| date           | 날짜                                       | int64   |
-|                |                                            |         |
+| data columns | 데이터 설명 | 비고 |
+| --- | --- | --- |
+| 데이터 열 | 데이터 설명 | 비고 |
+| uid | 고유의 값_유저 식별을 위한 인덱스 (동일 아이디일때 같은 유저라고 파악 | object |
+| action_type | 해당 유저가 한 행동                                                                     -유저가 하는 행동중 추적 가능한 행동- |  |
+| Cost | 광고 집행 비용; bid * 클릭수(세금제외) | float64 |
+| Sum of AD rank | 전일 광고 평균 순위 | float64 |
+| Bid | 입찰, 광고 단가 | int64 |
+| Price(PC) | PC 가격 *** ; 판매중인 물건 가격 | int64 |
+| Price(Mobile) | 모바일 가격 ***; 판매중인 물건 가격 | int64 |
+| Delivery Fee | 배송비 (-1: 광고가져오지 못한것 즉 결측값) | int64 |
+| Category1 | 범주1 | object |
+| Category2 | 범주2 | object |
+| Category3 | 범주3 | object |
+| Category4 | 범주4 | object |
+| date | 날짜 | int64 |
 
 ### **log_csv.csv**
 
-| data columns | 데이터 설명                                                                                                                   | 비고   |
-| ------------ | ----------------------------------------------------------------------------------------------------------------------------- | ------ |
-| uid          | 고유의 값_유저 식별을 위한 인덱스 (동일 아이디일때 같은 유저라고 파악                                                         | object |
-| action_type  | 해당 유저가 한 행동                                                                     -유저가 하는 행동중 추적 가능한 행동- |
-1. View : 페이지 방문
+| uid | 고유의 값_유저 식별을 위한 인덱스  | object |
+| --- | --- | --- |
+| action_type | 1. View : 페이지 방문
 2. Basket : 장바구니 버튼
 3. Highlight : 드래그 이벤트 발생 
 4. Copy:  복사 이벤트 발생
 5. SINF : 광고 유입을 통한 입장 | object |
-
-
 | category1 | 범주1 | object |
 | category2 | 범주2 | object |
 | category3 | 범주3 | object |
