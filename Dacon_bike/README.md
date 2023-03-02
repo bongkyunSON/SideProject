@@ -52,3 +52,4 @@
 # 🏆 Prize
 
 - 데이콘 : 2022 UOS 빅데이터 알고리즘 경진대회 11등
+https://dacon.io/myprofile/462613/home
