@@ -72,7 +72,7 @@
 
 1) 대회 규정: 외부 데이터 사용 가능하지만 테스트시에는 사용 제한
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e0fbc4e8-a1eb-4b10-885f-31df3da17d88/Untitled.png)
+<img width="937" alt="123" src="https://user-images.githubusercontent.com/114561525/222432151-2fb6b412-2162-4afe-aa23-2342ce6f9639.png">
 
  2) train columns != test columns
 
