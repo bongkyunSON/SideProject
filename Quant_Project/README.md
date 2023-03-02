@@ -186,3 +186,6 @@
         
     
 - 팩터의 투자성과는 대시보드를 통해 설명
+
+![대시보드](https://user-images.githubusercontent.com/114561525/222430037-319eeae1-ca48-4e5d-aec5-053c43d3e1e5.PNG)
+

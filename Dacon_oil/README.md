@@ -72,7 +72,7 @@
 
 1) 대회 규정: 외부 데이터 사용 가능하지만 테스트시에는 사용 제한
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e0fbc4e8-a1eb-4b10-885f-31df3da17d88/Untitled.png)
+<img width="937" alt="123" src="https://user-images.githubusercontent.com/114561525/222432151-2fb6b412-2162-4afe-aa23-2342ce6f9639.png">
 
  2) train columns != test columns
 
@@ -208,11 +208,11 @@ array(['COMPONENT3', 'COMPONENT2', 'COMPONENT1', 'COMPONENT4'],
 
 ```
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a4a8bc02-ae55-427d-83e9-37856e8ea2e1/Untitled.png)
+![1](https://user-images.githubusercontent.com/114561525/222430705-0b2f7394-ae57-4364-a5eb-ff455bbce30c.png)
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e2a9b5b0-98ff-4d2e-ad74-e4a6a4c71d38/Untitled.png)
+<img width="722" alt="2" src="https://user-images.githubusercontent.com/114561525/222430751-421aa219-87bf-4c0e-a393-3c0d404c49b6.png">
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b4f495ae-1ad4-4de5-b31e-6749b2345ac5/Untitled.png)
+![3](https://user-images.githubusercontent.com/114561525/222430737-197b0c51-8989-4a49-93b8-91404095cc52.png)
 
 ### 결론:
 
@@ -228,7 +228,7 @@ array(['COMPONENT3', 'COMPONENT2', 'COMPONENT1', 'COMPONENT4'],
 
 ```
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/6a43a948-a443-44f0-8ee9-0c24684bca47/Untitled.png)
+<img width="997" alt="4" src="https://user-images.githubusercontent.com/114561525/222430946-c599f27f-7e15-405e-a997-d2c5540ec38b.png">
 
 ### 5. Feature Engineering
 
@@ -268,13 +268,13 @@ array(['COMPONENT3', 'COMPONENT2', 'COMPONENT1', 'COMPONENT4'],
 
 "N": # voting에서 모델별 weights의 조합가지수(default=5)
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2e7cf390-6d70-4450-9a20-73164c1f2a69/Untitled.png)
+<img width="241" alt="5" src="https://user-images.githubusercontent.com/114561525/222431459-0e252125-7066-4ae7-b150-c414bd115947.png">
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/55abddf5-fd53-4688-af54-44966e48ed29/Untitled.png)
+<img width="963" alt="6" src="https://user-images.githubusercontent.com/114561525/222431480-f44beaf8-8d39-4c31-aab5-7d3bf68251ed.png">
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e96fed8c-d6f5-47fa-b493-a8eae1db9ab2/Untitled.png)
+<img width="1087" alt="7" src="https://user-images.githubusercontent.com/114561525/222431497-e93c523b-c287-4653-b578-98bf668e15f7.png">
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/192c6da0-b3e4-4e4b-a0f5-4511cd699c29/Untitled.png)
+<img width="354" alt="8" src="https://user-images.githubusercontent.com/114561525/222431506-c8b62dbf-96a5-46dd-a926-224562d02f19.png">
 
 5.2) Train to Classification
 
@@ -291,13 +291,13 @@ array(['COMPONENT3', 'COMPONENT2', 'COMPONENT1', 'COMPONENT4'],
 
 ```
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d1096b4c-1eaf-4603-a2a1-c76d9ce37513/Untitled.png)
+<img width="709" alt="9" src="https://user-images.githubusercontent.com/114561525/222431526-53001697-fadd-4948-a8ed-9e0a56e13482.png">
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/0acb7d4e-a01b-41a2-ba0f-f629c8bc33a6/Untitled.png)
+<img width="878" alt="10" src="https://user-images.githubusercontent.com/114561525/222431543-e1fb4f53-03f7-4261-a155-7cb8dcf1ca3f.png">
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ec7eeb2a-6397-4cb1-8593-25b653f852f4/Untitled.png)
+<img width="424" alt="11" src="https://user-images.githubusercontent.com/114561525/222431559-2ba76c85-f9aa-47e4-8ecd-68b1c6e55b8c.png">
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/25a96441-8149-4e29-bfb6-449e460d3d53/Untitled.png)
+<img width="366" alt="12" src="https://user-images.githubusercontent.com/114561525/222431576-5f865e1a-88a3-42ff-9eed-0f81c3029e51.png">
 
 ### 6. Classification
 
@@ -321,10 +321,21 @@ array(['COMPONENT3', 'COMPONENT2', 'COMPONENT1', 'COMPONENT4'],
 
 "N": # voting에서 모델별 weights의 조합가지수(default=5)
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a244b763-ca7b-4b09-84a1-e682fe89c849/Untitled.png)
+<img width="328" alt="13" src="https://user-images.githubusercontent.com/114561525/222431712-8a823bd2-a728-424a-bec2-43b5e6fac980.png">
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c92b55a9-7218-4d0b-ac00-1d3ac69e7fa0/Untitled.png)
+<img width="331" alt="14" src="https://user-images.githubusercontent.com/114561525/222431728-f1c1d1cf-09e5-4ae7-a3a7-51a5427549e1.png">
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/59220ea0-8887-46dc-ae78-3c55fc80ce01/Untitled.png)
+<img width="291" alt="15" src="https://user-images.githubusercontent.com/114561525/222431750-46498fb9-6f33-42a9-819e-7d8a92396369.png">
 
 ### 결론:
+
+```
+- train과 validation의 f1 score 비교 결과
+    - 과적합 문제가 있음을 확인
+- validation과 test의 f1 score 또한 많은 차이를 보임
+    - 하루 제출이 3번으로 제한되었기 때문에 자체적으로 test data를 만들어서 사용했다.
+    - 이때, 대회의 test data와 최대한 같게 만들기 위해 sampling을 진행하지 않았다.
+    - 그 결과, sampling을 진행한 validation의 score와 test score의 차이가 발생.
+    - sampling 이후 0과 1의 비율이 1:1로 맞춰짐에 따라 1의 숫자가 크게 늘어나 이와 같은 문제가 발행한 것이라 예상하고있다. 이에 추가 작업 계획
+
+```
