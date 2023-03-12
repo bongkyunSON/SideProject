@@ -215,7 +215,7 @@
 
 ![베타_보수적](https://user-images.githubusercontent.com/114561525/224532651-7affd5c5-5836-4624-a517-95d784b8bc1c.PNG)
 
-### **Beta Conservative**
+### Beta Conservative (현금비중 50%)
 
 - 포트폴리오
     - Total Return : 410.24%
@@ -230,7 +230,7 @@
 
 ![베타 중간](https://user-images.githubusercontent.com/114561525/224532700-2cd572ed-f514-431a-bcff-9b3a57c268ea.PNG)
 
-### Beta Moderate
+### Beta Moderate (현금비중 30%)
 
 - 포트폴리오
     - Total Return : 592.29%
@@ -245,7 +245,7 @@
 
 ![베타공격적](https://user-images.githubusercontent.com/114561525/224532703-2dacb08d-d472-4609-80c2-52a6ed9056c3.PNG)
 
-### Beta Aggressive
+### Beta Aggressive (현금비중 0%)
 
 - 포트폴리오
     - Total Return : 958.11%
@@ -262,7 +262,7 @@
 
 ![모멘텀_보수적](https://user-images.githubusercontent.com/114561525/224532708-bb774101-234c-416a-989e-050b4790b205.PNG)
 
-### Momentum Conservative
+### Momentum Conservative (현금비중 50%)
 
 - 포트폴리오
     - Total Return : 405.85%
@@ -277,7 +277,7 @@
 
 ![모멘텀_중간](https://user-images.githubusercontent.com/114561525/224532712-cbfddd6a-df5f-42e0-a3ce-b90ac24729fe.PNG)
 
-### Momentum Moderate
+### Momentum Moderate (현금비중 30%)
 
 - 포트폴리오
     - Total Return : 605.28%
@@ -292,7 +292,7 @@
 
 ![모멘텀_공격적](https://user-images.githubusercontent.com/114561525/224532713-7803ae8a-b21e-42cc-b464-d2699baf3870.PNG)
 
-### Momentum Aggressive
+### Momentum Aggressive (현금비중 0%)
 
 - 포트폴리오
     - Total Return : 1067.88%
@@ -308,7 +308,7 @@
 ---
 
 ![변동성_보수적](https://user-images.githubusercontent.com/114561525/224532717-a66c2229-e8f1-4e1a-aaf2-0ec19bbd9cbc.PNG)
-### Volatility Conservative
+### Volatility Conservative (현금비중 50%)
 
 - 포트폴리오
     - Total Return : 226.39%
@@ -322,7 +322,7 @@
     - Sharpe Ratio : 0.58
 
 ![변동성_중간](https://user-images.githubusercontent.com/114561525/224532721-95c943f3-13c6-4ccd-9bf2-308ae70c194d.PNG)
-### Volatility Moderate
+### Volatility Moderate (현금비중 30%)
 
 - 포트폴리오
     - Total Return : 272.18%
@@ -337,7 +337,7 @@
 
 ![변동성_공격적](https://user-images.githubusercontent.com/114561525/224532726-87fe0885-921e-40bc-bdea-6431cee23e99.PNG)
 
-### Volatility Aggressive
+### Volatility Aggressive (현금비중 0%)
 
 - 포트폴리오
     - Total Return : 354.33%
@@ -354,7 +354,7 @@
 
 ![ai_보수적](https://user-images.githubusercontent.com/114561525/224532732-bc23575e-57b0-4edf-910b-962f527610ef.PNG)
 
-### AI Forecasting Conservative
+### AI Forecasting Conservative (현금비중 50%)
 
 - 포트폴리오
     - Total Return : 354.33%
@@ -369,7 +369,7 @@
 
 ![ai_중간](https://user-images.githubusercontent.com/114561525/224532734-76b6a6a0-6b79-47dd-b1db-3ea2852ef2f3.PNG)
 
-### AI Forecasting Moderate
+### AI Forecasting Moderate (현금비중 30%)
 
 - 포트폴리오
     - Total Return : 512.84%
@@ -383,7 +383,7 @@
     - Sharpe Ratio : 0.77
 
 ![ai_공격적](https://user-images.githubusercontent.com/114561525/224532739-ecf0ff5a-4bf8-4296-9cf8-63d46433826f.PNG)
-### AI Forecasting Moderate
+### AI Forecasting Moderate (현금비중 0%)
 
 - 포트폴리오
     - Total Return : 825.59%
@@ -405,4 +405,3 @@
 - AI모델로 팩터를 만들어봄
     - 리밸런싱 날짜를 기준으로 1년을 학습하고 다음 리밸런싱 날짜에 예상수익률을 뽑아 상위 20개의 종목을 찾아서 시그널을 보내줌
 
->>>>>>> d3d8697f862ab53daaea971ba68a89c8d088169a
