@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Quant-Project
 ## Overview
 ### 1. 프로젝트 주제
