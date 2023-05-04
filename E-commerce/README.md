@@ -258,6 +258,8 @@
 - LGBMRanker
   - Featur Importance
   ![1](https://user-images.githubusercontent.com/114561525/236296008-b6ff8d3f-c687-4e72-bc05-6282d7196164.png)
+  
   - NDCG
+  
     ![2](https://user-images.githubusercontent.com/114561525/236296798-ed916bb3-4af4-4775-85b0-0ace102d7783.PNG)
 
