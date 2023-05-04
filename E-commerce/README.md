@@ -29,7 +29,7 @@
 - EDA
   1. 유저 아이디 아웃라이어
 
-     ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/8b65e79b-0114-4403-b26f-c5f1db5aacbf/Untitled.png)
+     ![유저아이디 아웃라이어](https://user-images.githubusercontent.com/114561525/236294657-7e3a94e5-d757-4519-9a14-ef0f3d993c09.png)
 
      - 유저 아이디별로 데이터를 1000개 밑으로 가지고있다
      - 아웃라이어 제거하여 피쳐를 만들어보자
@@ -58,7 +58,7 @@
 
   1. 시간대별 데이터
 
-     ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3bff7941-73da-422b-a0e1-678d20fd9884/Untitled.png)
+     ![시간대](https://user-images.githubusercontent.com/114561525/236294957-d8bdcf47-995d-483b-a024-9b0bb9196a70.png)
 
      - 모바일데이터의 특징처럼 자는시간대 데이터가 많다
      - 2~6시 데이터, 7~18시 데이터, 18~1시 데이터를 나눠서 피쳐를 만들자
@@ -69,19 +69,19 @@
 
      - 클릭
 
-     ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/bc6a3f82-8f91-43ca-b324-43a5826391bd/Untitled.png)
+     ![클릭별1](https://user-images.githubusercontent.com/114561525/236294825-c3b7741c-8cd1-4af8-92d9-5adfe8a5c300.png)
 
      - 좋아요
 
-     ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d7f41fba-b2cc-46a5-83ef-e11416b580c0/Untitled.png)
+     ![좋아요](https://user-images.githubusercontent.com/114561525/236294851-5514a378-9c2e-48d3-bb4d-2a0c7ada9cad.png)
 
      - 장바구니 담기
 
-     ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/9c2ef340-6c59-4359-80aa-ea60aa48c8e5/Untitled.png)
+     ![카트](https://user-images.githubusercontent.com/114561525/236294885-4b249fe1-4782-4bca-aa6d-78f14cfdc032.png)
 
      - 구매
 
-     ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/cc8db6c0-e7b2-4731-a508-117d8685e3c2/Untitled.png)
+     ![구매](https://user-images.githubusercontent.com/114561525/236294898-5e9db4a3-a883-4ce1-a73d-0d33d3994ba9.png)
 
      - 이벤트 별로 요일마다 특징이 다르다
      - 일요일은 전체적으로 좋은 데이터를 볼수있다
@@ -90,7 +90,7 @@
 
   1. 지역 데이터
 
-     ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/821ce3f2-6124-4222-ad60-8373815823cd/Untitled.png)
+     ![지역_전체](https://user-images.githubusercontent.com/114561525/236295105-20baee7a-1097-40d0-888a-947186b051bf.png)
 
      - 지역별 상관관계 데이터
      - 서울과 경기도의 상관관계가 생각보다 높았다
@@ -99,7 +99,7 @@
 
   1. 카테고리 데이터
 
-     ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/937679ef-b682-455e-9e43-e5e5bedbf492/Untitled.png)
+     ![카테고리1](https://user-images.githubusercontent.com/114561525/236295120-c054627f-801f-4c4a-b5bf-34d0442a99fb.png)
 
      - 카테고리별로 상관관계 데이터
      - 244100100 잡화, 243100100 의류
@@ -152,9 +152,9 @@
 
 - Best-seller
   - 탑 10개
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ee88c676-8303-4b41-bdae-82c3b8bc6f73/Untitled.png)
+    ![탑10](https://user-images.githubusercontent.com/114561525/236295196-96d44562-2c7f-4711-a0cf-43807715a55d.PNG)
   - 베스트셀러 성능
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/4dfab7f0-12e4-4940-ac5c-593e8940f95c/Untitled.png)
+    ![2](https://user-images.githubusercontent.com/114561525/236295213-619081a0-310e-4911-813c-e19711e853fc.PNG)
 
 ---
 
@@ -167,18 +167,18 @@
      - 이웃의 크기를 미리 정해놓고 추천 대상과 가장 유사한 K명을 선택하는 KNN 방법
      - 이웃의 크기 대신, 유사도를 기준으로 이웃을 정하는 Thresholding 방법
      - KNN 방식의 정확도: 1.01200309134375(k=5)
-       ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/fc79838c-f697-4130-833b-2f80611228b3/Untitled.png)
+       ![knn1](https://user-images.githubusercontent.com/114561525/236295292-4e6c0ca7-3774-4952-8c06-77303a615312.PNG)
      - 최적의 이웃 크기
-       ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/457dc3a7-c384-43dc-b516-d48db6ba5966/Untitled.png)
+       ![knn2](https://user-images.githubusercontent.com/114561525/236295315-a9d5422c-bfbf-4508-8289-9a3a9683e5b8.PNG)
      - 대략 20부근, 30이후로는 갑이 변하지 않는다
   2. knn-CF + 신뢰도 가중(significance weighting)
 
      - 공통 아이템이 많은 사용자와의 유사도를 공통 아이템이 적은 사용자와의 유사도보다 더 큰 가중치를 부여. 하지만, 공통 아이템의 수를 가중치로 직접 사용하면 안 좋을 수 있기 때문에, 신뢰도가 일정 이상인 사용자를 이웃으로 활용
-       ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/370f6735-78c2-4038-8fa0-16fb09d0f91f/Untitled.png)
+       ![knn+](https://user-images.githubusercontent.com/114561525/236295346-ee571f0f-868b-45f3-8fd7-0900df8d837b.PNG)
 
   3. Item-based CF
      - 사용자들의 평가 패턴을 바탕으로 아이템 간의 유사도를 계산해서 사용자의 특정 아이템에 대한 예측 평점을 계산. 즉, 추천 대상(사용자)이 평가한 아이템의 평점과 다른 아이템과의 유사도를 가중해서 평균한 값을 해당 아이템에 대한 예측값으로 사용
-       ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a552a510-7c1f-48e7-bf5e-2cc2f9870692/Untitled.png)
+       ![아이템](https://user-images.githubusercontent.com/114561525/236295371-b6b4cd96-d009-44bf-b6e6-6bd3c342069e.PNG)
 
 ---
 
@@ -190,43 +190,43 @@
   - 사용자와 아이템의 다양한 특성을 종합해서 모델화함으로써 예측의 성능을 높이려는 방법
   1. 기존 데이터의 피쳐
 
-     ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3c3cd8e9-562d-41a8-b8b5-b60a20df84ad/Untitled.png)
-  ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e9de2f93-dfcf-4f0c-8b6f-26886ae3e77a/Untitled.png)
+     ![1-1](https://user-images.githubusercontent.com/114561525/236295435-3195d24f-3ad2-4594-8d74-f6df067ba0bf.PNG)
+  !![1](https://user-images.githubusercontent.com/114561525/236295468-64c149c0-ee57-4cd1-b61c-1b3dbb481514.png)
   1. 요일별 피쳐 추가
 
-     ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/cc3c23c3-96d2-477b-b235-ab8be23573a3/Untitled.png)
+     ![요일추가](https://user-images.githubusercontent.com/114561525/236295526-362296be-49d5-461c-9d2d-817c38456787.PNG)
 
-     ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/014da90c-7395-4bb2-a29c-b8fc619a9ed4/Untitled.png)
+     ![요일추가그래프](https://user-images.githubusercontent.com/114561525/236295550-2fa61442-3813-4033-bd3d-961eab12170f.png)
 
   2. 한국 피쳐 추가
 
-     ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1df439b3-c36d-4713-85fc-bb66265908cd/Untitled.png)
+     ![한국추가](https://user-images.githubusercontent.com/114561525/236295580-9cfeb4fe-ffb0-4aea-b395-a4042ab1354d.PNG)
 
-     ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/0ea0c561-748d-4821-af9b-ccc8c6d6101d/Untitled.png)
+     ![한국그래프](https://user-images.githubusercontent.com/114561525/236295599-08406812-ab1c-4323-9a84-5d952b7301ba.png)
 
   3. 카테고리 상관관계 피쳐 추가
 
-     ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d23f5475-fe91-4d71-b106-26d2770ccf7c/Untitled.png)
+     ![카테고리추가](https://user-images.githubusercontent.com/114561525/236295637-240d65b5-7552-4bc7-94f2-efef13bbfc29.PNG)
 
-     ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/6938c208-73b2-4880-b350-0201fc30a4d1/Untitled.png)
+     ![카테고리그래프](https://user-images.githubusercontent.com/114561525/236295667-c7d4c2c1-b770-4fa2-acc1-e9b5efa349c9.png)
 
   4. 지역별 상관관계 피쳐 추가
 
-     ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ea1ddcd7-8395-4b41-9c05-3b5b54fa09e7/Untitled.png)
+     ![지역추가](https://user-images.githubusercontent.com/114561525/236295710-050d3518-2f64-4d84-8e1a-ae188416a00f.PNG)
 
-     ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c5516ddc-3226-4919-b641-e3ae9c4c4ec8/Untitled.png)
+     ![지역그래프](https://user-images.githubusercontent.com/114561525/236295733-4941db51-e4bf-48e8-a21f-d58877704b96.png)
 
   5. 시간 피쳐 추가
 
-     ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/acf1d74e-e07b-4db5-a462-ed7b6bbe7ae2/Untitled.png)
+     ![시간추가](https://user-images.githubusercontent.com/114561525/236295774-fc4a5bdb-19eb-4921-ac49-c83ce064065c.PNG)
 
-     ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/49fc4600-c600-4fe0-be24-d7d61006e443/Untitled.png)
+     ![시간추가그래프](https://user-images.githubusercontent.com/114561525/236295813-191a5d14-5ff9-48d6-86e7-8159ecde52f7.png)
 
   6. 시간대별 피쳐 추가
 
      - 2~6시 데이터, 7~18시 데이터, 18~1시 데이터로 나뉘어서 피쳐 추가
-       ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ddbdaf27-e5af-4d44-9361-b9a1131b6afa/Untitled.png)
-       ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3db0beea-3b26-4b05-95bb-f64d9a417eb9/Untitled.png)
+       ![시간대추가](https://user-images.githubusercontent.com/114561525/236295877-d44b4439-c254-4e34-9c1d-998662172247.PNG)
+       ![시간대그래프](https://user-images.githubusercontent.com/114561525/236295909-e1c5ea5a-c62c-4d94-933b-e192b6c19845.png)
      - 피쳐들을 추가하면 할수록 성능이 좋아지는걸 알수있다
      - 즉, 분석을 통해서 새로운 피쳐들을 더 추가한다면 성능은 더 좋아질수도 있다
 
@@ -235,9 +235,9 @@
      - FM의 장점과 Deep Learning의 장점을 모두 합친 모델이다
      - 추가 feature engineering없이 raw feature를 그대로 사용할 수 있다
 
-     ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c158f742-2bf0-4588-bb04-50f929e33979/Untitled.png)
+     ![deepfm](https://user-images.githubusercontent.com/114561525/236295936-35365fc6-3b74-4bda-81b1-4c20230b0b59.PNG)
 
-     ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/bc89132c-43fa-4226-8d65-916bd50757e5/Untitled.png)
+     ![deepfm2](https://user-images.githubusercontent.com/114561525/236295963-65f2c351-8bbd-4a1c-a644-b57123566e20.PNG)
 
 ---
 
@@ -247,6 +247,6 @@
 
 - LGBMRanker
   - Featur Importance
-  ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/363cab45-9681-40ac-bcc8-6f67c85a14c1/Untitled.png)
+  ![1](https://user-images.githubusercontent.com/114561525/236296008-b6ff8d3f-c687-4e72-bc05-6282d7196164.png)
   - NDCG
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/80f8b886-ab40-493b-a167-206940f46dd4/Untitled.png)
+    ![1](https://user-images.githubusercontent.com/114561525/236296028-9dbcf55c-29dd-4db5-a915-0b2f61120880.png)
