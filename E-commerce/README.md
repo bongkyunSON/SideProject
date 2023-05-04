@@ -152,8 +152,11 @@
 
 - Best-seller
   - 탑 10개
+  
     ![탑10](https://user-images.githubusercontent.com/114561525/236295196-96d44562-2c7f-4711-a0cf-43807715a55d.PNG)
+    
   - 베스트셀러 성능
+  
     ![2](https://user-images.githubusercontent.com/114561525/236295213-619081a0-310e-4911-813c-e19711e853fc.PNG)
 
 ---
@@ -256,4 +259,5 @@
   - Featur Importance
   ![1](https://user-images.githubusercontent.com/114561525/236296008-b6ff8d3f-c687-4e72-bc05-6282d7196164.png)
   - NDCG
-    ![1](https://user-images.githubusercontent.com/114561525/236296028-9dbcf55c-29dd-4db5-a915-0b2f61120880.png)
+    ![2](https://user-images.githubusercontent.com/114561525/236296798-ed916bb3-4af4-4775-85b0-0ace102d7783.PNG)
+
