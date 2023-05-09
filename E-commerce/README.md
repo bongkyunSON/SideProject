@@ -197,7 +197,7 @@
   1. 기존 데이터의 피쳐
 
      ![1-1](https://user-images.githubusercontent.com/114561525/236295435-3195d24f-3ad2-4594-8d74-f6df067ba0bf.PNG)
-  !![1](https://user-images.githubusercontent.com/114561525/236295468-64c149c0-ee57-4cd1-b61c-1b3dbb481514.png)
+  ![1](https://user-images.githubusercontent.com/114561525/236295468-64c149c0-ee57-4cd1-b61c-1b3dbb481514.png)
   1. 요일별 피쳐 추가
 
      ![요일추가](https://user-images.githubusercontent.com/114561525/236295526-362296be-49d5-461c-9d2d-817c38456787.PNG)
