@@ -10,10 +10,9 @@
   1. EDA
   2. TF-IDF
   3. Best-seller
-  4. CF(knn, knn-plus)
-  5. Item-based-CF
-  6. FM & DeeFM
-  7. LGBMRanker
+  4. CF(knn, knn-plus, Item-based-CF)
+  5. FM & DeeFM
+  6. LGBMRanker
 
 - 총정리
   - 리소스 문제로 인해 16,000개 정도의 row로 만들수밖에 없었던게 너무 아쉽다
@@ -24,7 +23,7 @@
 
 ---
 
-## EDA
+## 1. EDA
 
 - EDA
   1. 유저 아이디 아웃라이어
@@ -110,7 +109,7 @@
 
 ---
 
-## TF-IDF
+## 2. TF-IDF
 
 - TF-IDF
   - TF : 단어가 해당 문서(아이템)에 얼마나 자주 등장하는지를 나타냄
@@ -148,7 +147,7 @@
 
 ---
 
-## Best-seller
+## 3. Best-seller
 
 - Best-seller
   - 탑 10개
@@ -163,7 +162,7 @@
 
 ---
 
-## CF(Collaborative Filtering)
+## 4. CF(Collaborative Filtering)
 
 - CF
   1. knn-CF
@@ -191,7 +190,7 @@
 
 ---
 
-## FM(**Factorization Machines**) & DeepFM
+## 5. FM(**Factorization Machines**) & DeepFM
 
 - FM
   - 사용자와 아이템의 다양한 특성을 종합해서 모델화함으로써 예측의 성능을 높이려는 방법
@@ -253,7 +252,7 @@
 
 ---
 
-## LGBMRanker
+## 6. LGBMRanker
 
 - LGBMRanker
   - Featur Importance
