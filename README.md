@@ -1,6 +1,6 @@
 # Total_Project
 
-- E-commerce DATA 분석과 추천시스템 만들기 : E-commerce data를 통계적 분석하여, FM의 적용해 성능을 올려보기(*2023.05.07 ~ 2023.05.21*)
+- E-commerce DATA 분석과 추천시스템 만들기 : E-commerce data를 통계적 분석하여, FM의 적용해 성능을 올려보기 (*2023.05.07 ~ 2023.05.21*)
     - 프로젝트 요약
         - E-commerce 데이터를 통계적 분석 해보자
         - 통계적 분석을 통해 새로운 feature를 만들어 보자
