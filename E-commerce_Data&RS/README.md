@@ -1763,12 +1763,14 @@
   사용하여 추천시스템을 만들어 보겠습니다.
   FM에 대한 설명은**[https://datapractice0815.tistory.com/208](https://datapractice0815.tistory.com/208)**이곳에서 확인해주세요.
   우선 리소스 문제로인하여 1/100 이로 샘플링 하여 데이터를 사용하겠습니다.
+  
   ```python
   # sample_df = total.sample(frac=0.01, random_state=42)# sample_df.to_csv('sample_df.csv')# 리소스 문제로 total data를 1/100로 샘플링
 
   FILES_DIR = './files/'
   sample = pd.read_csv(FILES_DIR + 'sample_df.csv')
   ```
+  
   분석과정에서 나온 데이터들을 전처리하겠습니다.
   ```python
   # binary로 문제를 풀어볼거여서 구매 말고는 -1로
@@ -1797,6 +1799,7 @@
   sample_df['event_timestamp'] = pd.to_datetime(sample_df['event_timestamp'])
   sample_df['event_timestamp(weekday)'] = sample_df['event_timestamp'].dt.day_name()
   ```
+  
   우선 기존 데이터에서 필요한 컬럼만 추출하여 사용하겠습니다.
   ```python
   # 필요한 컬럼만 추출
@@ -1813,6 +1816,7 @@
   ```
   X데이터를 csr_matrix로 만들어 주겠습니다.
   csr_matrix 자세한 설명은 [https://rfriend.tistory.com/551](https://rfriend.tistory.com/551) 참고해주세요
+  
   ```python
   import scipy
   X_sparse = scipy.sparse.csr_matrix(X_data.values)
@@ -1822,12 +1826,14 @@
   Pairwise Interaction to be computed
   - Linear Complexity
   ![https://blog.kakaocdn.net/dn/bSisdr/btsgDNdv5no/yhJoKrQzPdU2DYZQAMfTTK/img.png](https://blog.kakaocdn.net/dn/bSisdr/btsgDNdv5no/yhJoKrQzPdU2DYZQAMfTTK/img.png)
+  
   로스를 정의하는 부분입니다.
   negative likelihood 이며 binary classification할때 사용하는 것입니다.
   ```python
   # Compute negative log likelihood between prediction and labeldef log_loss(pred, y):
       return np.log(np.exp(-pred * y) + 1.0)
   ```
+  
   gradient를 업데이트 해주겠습니다.
   SGD를 사용하겠습니다
   ```python
@@ -1862,6 +1868,7 @@
       loss /= n_samples
       return loss
   ```
+  
   y예측값을 얻기위한 과정입니다.
   ```python
   def predict(X, w0, w, v, n_factors, i):
@@ -1889,6 +1896,7 @@
 
   # gradient update할 때, summed는 독립이므로 re-use 가능return pred, summed
   ```
+  
   학습하는 과정입니다.
   ```python
   # Train Factorization Machine# X -> sparse csr_matrix, y -> labeldef fit(X, y, config):
@@ -1937,12 +1945,14 @@
   fig.show()
   ```
   ![https://blog.kakaocdn.net/dn/bmdkZh/btsgEfnWcrO/JM3REekBKmc4yJPBBnbA7k/img.png](https://blog.kakaocdn.net/dn/bmdkZh/btsgEfnWcrO/JM3REekBKmc4yJPBBnbA7k/img.png)
+  
   기본 데이터에서 feature들을 점점 추가하여 FM의 성능을 확인해 보겠습니다.
 - 3-2
   3-1을 기본으로 하여 feature들을 추가해 보겠습니다.
   2-3분석에서  일~화요일이 다가올수록 구매를 많이 하게 되는 현상을 발견할 수 있습니다.
   추가로 2~7에서 vip고객들은 수요일도 구매를 많이 한다는걸 발견했습니다.
   일~수요일 데이터들의 feature를 추가하여 FM성능을 확인해 보겠습니다.
+  
   ```python
   sample_df['dayname_feature'] = np.where((sample_df['event_timestamp(weekday)'] == 'Sunday')
                                           |(sample_df['event_timestamp(weekday)'] == 'Monday')
@@ -1959,11 +1969,14 @@
   plt.show()
   ```
   ![https://blog.kakaocdn.net/dn/bVFkss/btsgEasXmUI/N0y3T9fzahCpkKMFcZ6iZ0/img.png](https://blog.kakaocdn.net/dn/bVFkss/btsgEasXmUI/N0y3T9fzahCpkKMFcZ6iZ0/img.png)
+  
   3-1보다 성능이 3배정도 좋아진걸 확인할수있습니다.
   다른 feature도 추가하여 성능의 변화를 확인해 보겠습니다.
+  
 - 3-3
   기존 3-2 데이터를 이어서 하겠습니다.
   2-3 데이터 분석을 기반으로 10~12시, 20~24(0)시 feature를 만들어 추가하겠습니다.
+  
   ```python
   sample_df['event_timestamp_hour'] = sample_df['event_timestamp_hour'].replace(0, 24)
   sample_df['time_1'] = np.where((sample_df['event_timestamp_hour'] >= 10)&(sample_df["event_timestamp_hour"].values <= 12) , 1, 0)
@@ -1979,13 +1992,16 @@
   plt.show()
   ```
   ![https://blog.kakaocdn.net/dn/GrGIO/btsgEbSU68J/EgQkd1Bw5aTRzKumjv2iHk/img.png](https://blog.kakaocdn.net/dn/GrGIO/btsgEbSU68J/EgQkd1Bw5aTRzKumjv2iHk/img.png)
+  
   3-2와 성능의 차이를 보이지 못했다.
   리소스 문제로 하이퍼 파라미터 튜닝이 어렵고 데이터를 샘플링하는 과정에서 문제가 생겨 그럴수있지만
   그렇다고 한들 성능의 차이가 보이지 못한것은 아쉬운 부분이다.
   다른 추가적인 부분도 feature를 추가해보자
+  
 - 3-4
   기존 3-3 데이터를 이어서 하겠습니다.
   2-7분석을 기반으로 새로운 카테고리 feature를 만들어 봅니다.
+  
   ```python
   sample_df['cat2_feature'] = np.where((sample_df['category2_name'] == '상의')
                                           |(sample_df['category2_name'] == '하의')
@@ -2005,12 +2021,15 @@
   plt.show()
   ```
   ![https://blog.kakaocdn.net/dn/lbMRG/btsgKoRfZ14/LhugYpYAqxBGckxxPyKkr0/img.png](https://blog.kakaocdn.net/dn/lbMRG/btsgKoRfZ14/LhugYpYAqxBGckxxPyKkr0/img.png)
+  
   3-3보다 미세하지만 성능이 올라갔습니다.
   하이퍼 파라미터 튜닝과 리소스 문제가 해결됐다면 좀더 성능을 올렸을수 있을것같습니다.
   다른  feature를 추가하여 FM의 성능을 관찰해 보겠습니다.
+  
 - 3-5
   기존 3-4 데이터를 이어서 하겠습니다.
   2-7분석을 기반으로 새로운 브랜드 feature를 만들어 봅니다.
+  
   ```python
   sample_df['brand_feature'] = np.where((sample_df['brand_name'] == '그라운드시소')
                                           |(sample_df['brand_name'] == 'The Ordinary')
@@ -2033,11 +2052,13 @@
   plt.show()
   ```
   ![https://blog.kakaocdn.net/dn/buGKes/btsgEC4hr1G/XRqBVDSRGITDykEeYNtI2K/img.png](https://blog.kakaocdn.net/dn/buGKes/btsgEC4hr1G/XRqBVDSRGITDykEeYNtI2K/img.png)
+  
   정말 미세하게 3-4 보다 성능이 올라갔습니다.
   미비 하지만 분석이 틀리지 않다는걸 증명해주는것 같습니다.
 - 3-6
   기존 3-5 데이터를 이어서 하겠습니다.
   2-2분석을 기반으로 남자 나이대 feature를 만들어 봅니다.
+  
   ```python
   sample_df.loc[(sample_df['gender'] == 'M') &\
                  (sample_df['age(Group)'] == '25 ~ 35'), 'M_age_25_35'] = 1
@@ -2057,6 +2078,7 @@
   plt.show()
   ```
   ![https://blog.kakaocdn.net/dn/dxjipY/btsgMaeivfE/skW0u8FbxX5slrVoftWF60/img.png](https://blog.kakaocdn.net/dn/dxjipY/btsgMaeivfE/skW0u8FbxX5slrVoftWF60/img.png)
+  
   성능이 미세하게 내려갔습니다.
   아마도 구매가 가장많은 여자 25~35가 아닌 구매율이 높은 남자 25~44 feature를 만들어서 그런가 추측됩니다.
   하이퍼 파라미터 튜닝이 안돼서 그런거 일수도 있고, 샘플링 과정 때문에 데이터의 오류가 생겼을수도 있습니다.
