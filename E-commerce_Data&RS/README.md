@@ -9,7 +9,8 @@
 
 ## 성별 및 나이대별 이벤트 특징
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/9e55a6a3-4ef6-4949-9539-2b8e91461c5c/6f2c8dac-05ca-4451-b920-837444449ab8/Untitled.png)
+![image](https://github.com/bongkyunSON/SideProject/assets/114561525/9e9c3c23-f44b-460d-a560-b300391f6ccf)
+
 
 - 가장 많은 양의 결제가 일어난 구간: 여성 25~35세(합계=2334298)
 - 결제 완료의 45% 이상 해당 구간에서 발생합니다.
