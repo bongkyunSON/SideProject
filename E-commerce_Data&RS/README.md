@@ -23,11 +23,13 @@
 
 - 시간별 구매
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/9e55a6a3-4ef6-4949-9539-2b8e91461c5c/74b23f70-be2b-4105-bd1c-d401dee9bee5/Untitled.png)
+![image](https://github.com/bongkyunSON/SideProject/assets/114561525/d7449c72-79d1-4a66-9246-cc66959dcb34)
+
 
 - 요일별 구매
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/9e55a6a3-4ef6-4949-9539-2b8e91461c5c/c9a0cbda-492e-4f6a-b441-ed82364d16b6/Untitled.png)
+![image](https://github.com/bongkyunSON/SideProject/assets/114561525/89e3acc8-b841-4335-90e6-2c0a49684b69)
+
 
 - 구매 빈도가 높은 요일: 일요일 ~ 화요일
 - 구매 빈도가 높은 시간: 10시~12시, 20시~24시
@@ -74,7 +76,8 @@ LTV 분석을 할 때 L2 penalty(규제, regularization)를 사용하는 이유�
 
 **MSE**: 0.57 → (구매 일수에 대한 평균 제곱 오차가 +- 0.5)
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/9e55a6a3-4ef6-4949-9539-2b8e91461c5c/ebd0e188-00a2-4e02-b1a3-af619e2a8af0/Untitled.png)
+![image](https://github.com/bongkyunSON/SideProject/assets/114561525/66d403a9-fda6-434a-a67f-3abb68f3539e)
+
 
 - 고객이 활동하는 동안 일정한 기간 T 동안의 구매 횟수는 푸아송 분포(Pois(λT))를 따릅니다. 예를 들어, 1일 동안의 구매 횟수가 푸아송 분포(Pois(1/12))를 따른다면, T가 1년인 경우에는 푸아송 분포(Pois(30))를 따르게 됩니다. 여기서 λT는 예상 구매 횟수를 의미합니다.
 - 각 고객이 일정한 기간 동안 구매하는 횟수는 서로 다를 수 있으며, 이는 감마 분포(Gamma(r, α))를 따릅니다.
@@ -88,7 +91,8 @@ LTV 분석을 할 때 L2 penalty(규제, regularization)를 사용하는 이유�
 
 **MSE:** 9,513,426 → (평균 구매 금액의 평균 제곱 오차는 9,513,426원)
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/9e55a6a3-4ef6-4949-9539-2b8e91461c5c/3a3c0bc9-a1ed-49be-af70-df94e2a398d3/Untitled.png)
+![image](https://github.com/bongkyunSON/SideProject/assets/114561525/3de18861-62a1-4f71-915f-4152ef5df6b8)
+
 
 파란색 그래프: 실제값
 
@@ -98,7 +102,8 @@ LTV 분석을 할 때 L2 penalty(규제, regularization)를 사용하는 이유�
 
 이제 LTV를 구할 준비가 완료되었습니다. 지금까지의 과정을 요약하자면, 우리는 고객별 **RFMT**를 구했고, calibration/holdout 데이터를 나눠 **L2 penalt**y를 최적화했습니다. 이 최적화된 값을 **BG/NBD** 모형에 넣어 예상 구매 일수를, **Gamma-Gamma** 모형에 넣어 예상 구매 금액을 구했습니다. 이제 이 두 모형을 합쳐 LTV를 구하겠습니다.
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/9e55a6a3-4ef6-4949-9539-2b8e91461c5c/b55f44fe-4cd5-49dc-9021-9a4a09b1b29b/Untitled.png)
+![image](https://github.com/bongkyunSON/SideProject/assets/114561525/66426bec-681f-4a5e-ad4b-41b59eefff9c)
+
 
 - 1등 고객의 평균 구매 금액(monetary value)은 약 675,467원입니다. 한 번에 67만 원 정도를 쓰는 분이죠. 이 고객은 63일 동안 43번 구매했고, 어제도 구매했습니다.
 - 단순히 과거 데이터를 기반으로 계산하면 다음 해에도 67만 원씩 43번 구매할 것이라 예상할 수 있습니다. 이 경우 **예상 총 구매 금액은 약 2,800만 원**이 됩니다.
@@ -127,33 +132,38 @@ FM(Factorization Machines) 모델을 선택한 이유는 여러 분석을 통해
 
 기본 모델 성능
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/9e55a6a3-4ef6-4949-9539-2b8e91461c5c/2df7f3b3-b943-4c3b-ae72-03baabdfcc15/Untitled.png)
+![image](https://github.com/bongkyunSON/SideProject/assets/114561525/69e0ffd4-afe9-488a-bb67-5f975ae522f0)
+
 
 요일별 분석 결과 **Feature engineering**
 
 - 마케팅 전략시 일요일~화요일, VIP분석시 수요일에 대한 특징도 발견
 - 일요일~수요일 가중치 부여
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/9e55a6a3-4ef6-4949-9539-2b8e91461c5c/05f2df7d-38cf-42bc-9aab-395fdb32a7af/Untitled.png)
+![image](https://github.com/bongkyunSON/SideProject/assets/114561525/f175bcd9-fba9-4aa4-8339-f58a681a524f)
+
 
 시간별 분석 결과 **Feature engineering**
 
 - 10~12시, 20~24시 가중치 부여
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/9e55a6a3-4ef6-4949-9539-2b8e91461c5c/43ce9a8d-738e-4c2c-9e0d-6571f959c130/Untitled.png)
+![image](https://github.com/bongkyunSON/SideProject/assets/114561525/28e49d68-d7d5-4e40-b0be-135e08568362)
+
 
 전환율이 높은 남자 나이대 결과 **Feature engineering**
 
 - 남성 25~35 가중치 부여
 - 남성 36~44 가중치 부여
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/9e55a6a3-4ef6-4949-9539-2b8e91461c5c/afe98020-7824-4c61-a59c-11fc63b94034/Untitled.png)
+![image](https://github.com/bongkyunSON/SideProject/assets/114561525/e46205ae-6ab3-4f35-a036-00cb43faec58)
+
 
 LTV가 높은 브랜드 결과 **Feature engineering**
 
 - LTV가 높은 브랜드 TOP10 가중치 부여
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/9e55a6a3-4ef6-4949-9539-2b8e91461c5c/323fb006-1023-44bf-a84a-4d985daed08c/Untitled.png)
+![image](https://github.com/bongkyunSON/SideProject/assets/114561525/b6d8b7b0-280c-4b99-8ce5-00cfa4eeb1f3)
+
 
 # 프로젝트 결과
 
